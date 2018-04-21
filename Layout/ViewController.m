@@ -38,7 +38,6 @@ static NSString *const ID = @"image";
 - (void)viewDidLoad {
     [super viewDidLoad];
     
-    
     CGRect rect = CGRectMake(0, 100, k_Screen_width,300);
     UICollectionView *collectionView = [[UICollectionView alloc] initWithFrame:rect collectionViewLayout:[[CircleLayout alloc] init]];
     collectionView.backgroundColor = [UIColor lightGrayColor];
@@ -48,7 +47,6 @@ static NSString *const ID = @"image";
     [collectionView registerNib:[UINib nibWithNibName:@"ImageCell" bundle:nil] forCellWithReuseIdentifier:ID];
     [self.view addSubview:collectionView];
     self.collectionView = collectionView;
-    
 }
 
 - (void)touchesBegan:(NSSet<UITouch *> *)touches withEvent:(UIEvent *)event

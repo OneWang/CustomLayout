@@ -12,14 +12,6 @@ static const CGFloat ItemHW = 150;
 
 @implementation LineLayout
 
-- (instancetype)init
-{
-    if (self = [super init]) {
-       
-    }
-    return self;
-}
-
 /** 一些初始化的工作最好在这里实现 */
 - (void)prepareLayout
 {
