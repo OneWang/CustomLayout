@@ -22,7 +22,7 @@ static const CGFloat ItemHW = 150;
     self.sectionInset = UIEdgeInsetsMake(0, inset, 0, inset);
     //设置水平滚动
     self.scrollDirection = UICollectionViewScrollDirectionHorizontal;
-    self.minimumLineSpacing = ItemHW * 0.1;
+    self.minimumLineSpacing = ItemHW * 0.3;
     //每一个 Item 都有自己的UICollectionViewLayoutAttributes
     //每一个 indexpath 都有自己的UICollectionViewLayoutAttributes
 }
